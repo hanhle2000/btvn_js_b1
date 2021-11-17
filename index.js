@@ -117,7 +117,7 @@ function oddTotals(n)
 }
 
 //câu 8
-function check(n)
+function checkPrime(n)
 {
     let a = String(n);
     let dem=0;
@@ -165,7 +165,7 @@ function kq()
         oddTotals(document.getElementById('n').value)
         break;
     case '8':
-        check(document.getElementById('n').value)
+        checkPrime(document.getElementById('n').value)
         break;
     
     }
